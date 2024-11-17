@@ -30,28 +30,7 @@ const signInValidation = [
   check("password").notEmpty().withMessage("Identifier is required."), // Identifier should not be empty
 ];
 
-const createTransactionValidation = [
-  body("category")
-    .isIn([
-      "food",
-      "shopping",
-      "emi",
-      "investment",
-      "salary",
-      "general",
-      "other",
-    ])
-    .withMessage("Invalid category"),
-  body("transactionType")
-    .isIn(["income", "expense"])
-    .withMessage("Invalid transaction type"),
-  body("amount").isFloat().withMessage("Amount must be a positive number"),
-  body("beneficiary").optional().isString().isLength({ max: 50 }),
-  body("description").optional().isString().isLength({ max: 150 }),
-];
-
 module.exports = {
   validateUserRegistration,
   signInValidation,
-  createTransactionValidation,
 };
