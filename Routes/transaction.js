@@ -6,8 +6,9 @@ const { validationResult } = require("express-validator");
 
 // Project Imports
 const Transaction = require("../Models/Transaction");
-const { createTransactionValidation } = require("../middleware/validation");
-const { getCurrentIST } = require("../middleware/utility");
+const {
+  createTransactionValidation,
+} = require("../middleware/validation/transaction");
 
 const { authMiddleware } = require("../middleware/authenticate");
 
@@ -23,7 +24,6 @@ router.post(
     }
 
     try {
-      console.log(req.body);
       const existTransaction = await Transaction.findOne({
         category: req.body.category,
         transactionType: req.body.transactionType,
@@ -31,6 +31,8 @@ router.post(
         transactionDate: req.body.transactionDate,
         description: req.body.description,
         beneficiary: req.body.beneficiary,
+        status: req.body.transactionStatus,
+        mode: req.body.transactionMode,
         createdBy: req.user._id,
       });
       if (existTransaction) {
@@ -61,9 +63,8 @@ router.get("/", authMiddleware, async (req, res, next) => {
 
   try {
     // Apply optional filters
-
     const query = {
-      transactionStatus: req.query?.transactionStatus ?? true, // Fetch transactions with a true status by default
+      isDeleted: req.query?.transactionStatus !== undefined,
       createdBy: req.user._id, // Fetch transactions created by the authenticated user
     };
 
@@ -85,14 +86,41 @@ router.get("/", authMiddleware, async (req, res, next) => {
         $lte: endOfMonth,
       };
     }
-
-    console.log(query);
     const transactions = await Transaction.find(query, {
-      transactionStatus: 0,
+      isDeleted: 0,
       createdBy: 0,
-      transactionStausUpdate: 0,
+      deletedAt: 0,
     }).sort({ transactionDate: -1 });
-    res.status(200).json(transactions);
+    const summary = {
+      balance: 0,
+      expense: 0,
+      income: 0,
+      previousPending: 0,
+      pending: 0,
+      paid: 0,
+      emi: 0,
+      investment: 0,
+    };
+    for (let transaction of transactions) {
+      if (transaction.transactionType === "income") {
+        summary.balance += transaction.amount;
+        summary.income += transaction.amount;
+      } else {
+        summary.balance -= transaction.amount;
+        summary.expense += transaction.amount;
+        if (transaction.status?.toLowerCase() === "pending") {
+          summary.pending += transaction.amount;
+        } else if (transaction.status?.toLowerCase() === "completed") {
+          summary.paid += transaction.amount;
+        }
+      }
+      if (transaction.category.toLowerCase() === "emi") {
+        summary.emi += transaction.amount;
+      } else if (transaction.category.toLowerCase() === "investment") {
+        summary.investment += transaction.amount;
+      }
+    }
+    res.status(200).json({ transactions, summary });
   } catch (err) {
     console.error(err);
     next(err); // Pass the error to the error handling middleware
@@ -123,6 +151,8 @@ router.put(
         transactionDate: req.body.transactionDate,
         description: req.body.description,
         beneficiary: req.body.beneficiary,
+        status: req.body.status,
+        mode: req.body.mode,
       });
       if (!existTransaction) {
         return res.status(409).json({ error: "No Transaction Found" });

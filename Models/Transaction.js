@@ -1,68 +1,68 @@
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
 const { getCurrentIST } = require("../middleware/utility");
-// Reference to User model (assuming it's defined elsewhere)
 const User = require("./User");
 
-// Define the Transaction schema
 const transactionSchema = new Schema(
   {
-    // Specifies the Category of the transaction (e.g., Food, Rent)
-    category: {
-      type: String,
-      enum: [
-        "food",
-        "shopping",
-        "emi",
-        "investment",
-        "salary",
-        "general",
-        "other",
-      ],
-      default: "general",
-    },
-
-    // Specifies the type of transaction (e.g., expense, income, etc.)
+    // Enum field to represent type of transaction (e.g., income, expense)
     transactionType: {
       type: String,
+      required: true,
       enum: ["income", "expense"],
-      default: "expense",
+    },
+
+    category: {
+      type: String,
       required: true,
     },
 
-    // Date when the transaction occurred
     transactionDate: {
       type: Date,
       required: true,
     },
 
-    // The monetary amount of the transaction
     amount: {
       type: Number,
       default: 0.0,
       required: true,
     },
 
-    // The person or entity benefiting from the transaction
     beneficiary: {
       type: String,
-      maxlength: 50,
+      maxlength: 100,
     },
 
-    // Additional information about the transaction
     description: {
       type: String,
-      maxlength: 150,
+      maxlength: 255,
     },
 
-    // changes the delete status based
-    transactionStatus: {
+    // Foreign key to FinancialProduct
+    source: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "FinancialProduct",
+      default: null,
+    },
+
+    status: {
+      type: String,
+      default: "Pending",
+    },
+
+    mode: {
+      type: String,
+      default: null,
+    },
+
+    // Soft delete fields
+    isDeleted: {
       type: Boolean,
-      default: true,
+      default: false,
     },
-
-    transactionStausUpdate: {
+    deletedAt: {
       type: Date,
+      default: null,
     },
 
     // Reference to the user who created the transaction
@@ -77,15 +77,18 @@ const transactionSchema = new Schema(
   }
 );
 
-// Convert UTC to IST using a pre-save middleware
+// Middleware to adjust timestamps to IST
 transactionSchema.pre("save", function (next) {
   if (this.isNew) {
     this.createdAt = getCurrentIST(new Date());
     this.transactionDate = getCurrentIST(this.transactionDate);
-    // Set createdAt in IST
   }
+  this.updatedAt = getCurrentIST(new Date());
+  next();
+});
 
-  this.updatedAt = getCurrentIST(new Date()); // Always update updatedAt in IST
+transactionSchema.pre("findOneAndUpdate", function (next) {
+  this.set({ updatedAt: getCurrentIST(new Date()) });
   next();
 });
 
