@@ -21,3 +21,6 @@ app.add_middleware(
 
 app.include_router(user.router)
 
+# Vercel needs a handler for ASGI
+from mangum import Mangum
+handler = Mangum(app)
