@@ -12,12 +12,12 @@ class Settings(BaseSettings):
     SECRET_KEY: str = os.getenv("SECRET_KEY", "default_secret_key")
     ACCESS_TOKEN_EXPIRE_MINUTES: int = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", 60))
 
-    LOGTAIL_SOURCE_TOKEN: str = os.getenv("LOGTAIL_SOURCE_TOKEN", "s")
+    LOGTAIL_SOURCE_TOKEN: str = os.getenv("LOGTAIL_SOURCE_TOKEN", "")
     LOGTAIL_HOST: str = os.getenv("LOGTAIL_HOST", "")
 
     class Config:
-        print("\tApplication running in",os.getenv('ENVIRONMENT', 'local'))
-        env_file = f".env.{os.getenv('ENVIRONMENT', 'local')}"
+        print("\tApplication running in",os.getenv('ENVIRONMENT', ''))
+        env_file = f".env.{os.getenv('ENVIRONMENT', '')}"
 
 
 settings = Settings()
