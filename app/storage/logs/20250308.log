@@ -1,0 +1,1740 @@
+2025-03-08 20:06:41 | INFO | 9d2d8bd3-c22e-4cfb-9d58-be3ef1344c06 | 127.0.0.1 | 0.0.0.0 | user | get_api | log-test accessed
+2025-03-08 20:06:41 | INFO | 9d2d8bd3-c22e-4cfb-9d58-be3ef1344c06 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 20:13:37 | INFO | d3755598-43b1-4bd7-bac6-6fe0c3961610 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 20:13:37 | INFO | d3755598-43b1-4bd7-bac6-6fe0c3961610 | 127.0.0.1 | 0.0.0.0 | user | get_api | log-test accessed
+2025-03-08 20:13:37 | INFO | d3755598-43b1-4bd7-bac6-6fe0c3961610 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 20:14:37 | INFO | a2fdd768-dbf2-4833-8f85-a68b1a60f7d4 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 20:14:37 | INFO | a2fdd768-dbf2-4833-8f85-a68b1a60f7d4 | 127.0.0.1 | 0.0.0.0 | user | get_api | log-test accessed
+2025-03-08 20:14:37 | INFO | a2fdd768-dbf2-4833-8f85-a68b1a60f7d4 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 20:15:12 | INFO | 14dbeb07-3f31-4763-9009-c6ad0d7e70bd | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 20:15:12 | INFO | 14dbeb07-3f31-4763-9009-c6ad0d7e70bd | 127.0.0.1 | 0.0.0.0 | user | get_api | log-test accessed
+2025-03-08 20:15:12 | INFO | 14dbeb07-3f31-4763-9009-c6ad0d7e70bd | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 20:26:57 | INFO | 60be003f-c29b-45ba-b417-51aa42bd3004 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 20:26:57 | INFO | 60be003f-c29b-45ba-b417-51aa42bd3004 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 20:26:57 | INFO | ccacf23b-6826-4e12-9e38-2b1285e81427 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 20:26:57 | INFO | ccacf23b-6826-4e12-9e38-2b1285e81427 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 20:26:59 | INFO | 0865fea1-7223-499f-8388-a68bb333006c | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 20:26:59 | INFO | 0865fea1-7223-499f-8388-a68bb333006c | 127.0.0.1 | 0.0.0.0 | user | get_api | log-test accessed
+2025-03-08 20:26:59 | INFO | 0865fea1-7223-499f-8388-a68bb333006c | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 21:52:48 | INFO | 107e4327-9cb8-4a59-8df5-6cb97f889184 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 21:52:48 | INFO | 107e4327-9cb8-4a59-8df5-6cb97f889184 | 127.0.0.1 | 0.0.0.0 | user | get_api | log-test accessed
+2025-03-08 21:52:48 | INFO | 107e4327-9cb8-4a59-8df5-6cb97f889184 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 23:35:40 | INFO | 1fad0201-c7f2-4010-9a94-63139fe7f475 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:35:40 | INFO | 1fad0201-c7f2-4010-9a94-63139fe7f475 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 404
+2025-03-08 23:35:40 | INFO | 42ffae55-f75b-42e9-8ba3-e670cd928cdc | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:35:40 | INFO | 42ffae55-f75b-42e9-8ba3-e670cd928cdc | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 404
+2025-03-08 23:35:49 | INFO | 5f97e689-ae82-498b-ad53-71fd291b8990 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:35:49 | INFO | 5f97e689-ae82-498b-ad53-71fd291b8990 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 23:35:49 | INFO | 81278707-1957-4c3a-a00a-30f27be6472d | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:35:49 | INFO | 81278707-1957-4c3a-a00a-30f27be6472d | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 23:35:51 | INFO | a9922653-697d-4fef-8bf6-59b551170b8f | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:35:51 | INFO | a9922653-697d-4fef-8bf6-59b551170b8f | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 23:35:52 | INFO | e0eaac9d-3661-41a1-89e5-f92e339e48a5 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:35:52 | INFO | e0eaac9d-3661-41a1-89e5-f92e339e48a5 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 23:36:05 | INFO | 544e50c0-c414-4984-827f-f74f9f37a715 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:36:05 | INFO | 544e50c0-c414-4984-827f-f74f9f37a715 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 23:36:06 | INFO | 5a178b64-8ed8-4f3a-90fb-18efe2ba638a | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:36:06 | INFO | 5a178b64-8ed8-4f3a-90fb-18efe2ba638a | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 23:36:23 | INFO | 16e8f01b-9e70-460c-b4c8-2c6930b74ae8 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:36:23 | INFO | 16e8f01b-9e70-460c-b4c8-2c6930b74ae8 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 23:36:24 | INFO | bb941e8e-371b-4442-b418-83bf8c487876 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:36:24 | INFO | bb941e8e-371b-4442-b418-83bf8c487876 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 23:36:35 | INFO | 72597008-0a56-4533-9ed8-a2aa09362d61 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:36:35 | INFO | 72597008-0a56-4533-9ed8-a2aa09362d61 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 23:36:35 | INFO | e63c6a6a-7eca-4684-9ee7-ece19f605f98 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:36:35 | INFO | e63c6a6a-7eca-4684-9ee7-ece19f605f98 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 23:36:47 | INFO | 270cba7e-d818-451b-ae41-8fe394e807f7 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:36:47 | INFO | 270cba7e-d818-451b-ae41-8fe394e807f7 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 23:36:47 | INFO | 009659b2-16b0-4be1-a561-3eb06c6d8308 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:36:47 | INFO | 009659b2-16b0-4be1-a561-3eb06c6d8308 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 23:36:55 | INFO | b49bda47-198f-4ec1-85b6-617373b92b91 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:36:55 | INFO | b49bda47-198f-4ec1-85b6-617373b92b91 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 404
+2025-03-08 23:36:55 | INFO | 1a4292b5-a0a8-427c-abf8-6f4bbacbcd13 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:36:55 | INFO | 1a4292b5-a0a8-427c-abf8-6f4bbacbcd13 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 404
+2025-03-08 23:36:55 | INFO | 220c7a42-aded-4419-9736-5f1c95264f03 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:36:55 | INFO | 220c7a42-aded-4419-9736-5f1c95264f03 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 404
+2025-03-08 23:36:55 | INFO | 1ce68549-f6cf-4620-ae69-16e7994df4a1 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:36:55 | INFO | 1ce68549-f6cf-4620-ae69-16e7994df4a1 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 404
+2025-03-08 23:36:59 | INFO | fd83be3d-9556-4325-ba3a-7aca5a138b24 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:36:59 | INFO | fd83be3d-9556-4325-ba3a-7aca5a138b24 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 23:36:59 | INFO | f6f16910-a10d-47fb-b56e-7175b4f841ab | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:36:59 | INFO | f6f16910-a10d-47fb-b56e-7175b4f841ab | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 200
+2025-03-08 23:37:48 | INFO | 78cdd52e-bf03-41d0-a5d6-57e9041b4249 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:38:35 | INFO | 932609dc-13e5-4e4a-8a2a-8727d0a7f085 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:39:36 | INFO | d7569752-623a-4595-97a0-00684328b0ba | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:39:36 | ERROR | d7569752-623a-4595-97a0-00684328b0ba | 127.0.0.1 | 0.0.0.0 | user_service | signup | UserCrud.get_user_by_username() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 340
+               │     └ 3
+               └ <function _main at 0x000001A9532F96C0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 340
+           │    └ <function BaseProcess._bootstrap at 0x000001A9531025C0>
+           └ <SpawnProcess name='SpawnProcess-1' parent=18756 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x000001A953101B20>
+    └ <SpawnProcess name='SpawnProcess-1' parent=18756 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x000001A9556BBA10>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=18756 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=18756 started>
+    │    └ <function subprocess_started at 0x000001A9556A3D80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=18756 started>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=704, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x000001A9558189B0>>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=704, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+           │       │   │    └ <function Server.serve at 0x000001A9556A31A0>
+           │       │   └ <uvicorn.server.Server object at 0x000001A9558189B0>
+           │       └ <function run at 0x000001A954EA0900>
+           └ <module 'asyncio' from 'C:\\Users\\yash\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x000001A9557ED0E0>
+           │      └ <function Runner.run at 0x000001A954F3D9E0>
+           └ <asyncio.runners.Runner object at 0x000001A9557E7DD0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uv...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x000001A954F37600>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x000001A9557E7DD0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 651, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x000001A954F37560>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 618, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000001A954F3D3A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1951, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000001A954EA16C0>
+    └ <Handle Task.task_wakeup(<Future finis...01A958979F70>>)>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...01A958979F70>>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...01A958979F70>>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...01A958979F70>>)>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\base.py", line 140, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+          │    │   │      │                      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x000001A958993100>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001A95893BBA0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001A95891F890>
+          └ <app.middlewares.logging_middleware.LoggingMiddleware object at 0x000001A95891F8F0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x000001A958993100>
+          │                            │    │    │     │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001A95893BBA0>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x000001A958940230>
+          │                            │    └ <fastapi.routing.APIRouter object at 0x000001A9586D8F50>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001A95891F890>
+          └ <function wrap_app_handling_exceptions at 0x000001A957899300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001A958992E80>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001A95893BBA0>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <fastapi.routing.APIRouter object at 0x000001A9586D8F50>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001A958992E80>
+          │    │                │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001A95893BBA0>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x000001A9586D8F50>>
+          └ <fastapi.routing.APIRouter object at 0x000001A9586D8F50>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001A958992E80>
+          │     │      │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001A95893BBA0>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │     └ <function Route.handle at 0x000001A95789A840>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001A958992E80>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001A95893BBA0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <function request_response.<locals>.app at 0x000001A9589384A0>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001A958992E80>
+          │                            │    │        │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001A95893BBA0>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x000001A9589797F0>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x000001A958992DE0>
+          └ <function wrap_app_handling_exceptions at 0x000001A957899300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001A958992CA0>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001A95893BBA0>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x000001A958992DE0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+                     │ └ <starlette.requests.Request object at 0x000001A9589797F0>
+                     └ <function get_request_handler.<locals>.app at 0x000001A958938540>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x000001A957898D60>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'db': <sqlalchemy.orm.session.Session object at 0x000001A958979F70>, 'user': UserCreate(name='Yash Goodluck', username='yash...
+                 │         └ <function signup at 0x000001A958675120>
+                 └ Dependant(path_params=[], query_params=[], header_params=[], cookie_params=[], body_params=[ModelField(field_info=Body(Pydant...
+
+  File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\api\routes\user.py", line 12, in signup
+    return await user_services.signup(user, db)
+                 │             │      │     └ <sqlalchemy.orm.session.Session object at 0x000001A958979F70>
+                 │             │      └ UserCreate(name='Yash Goodluck', username='yash@04', email='yash@gmail.com', password='123465', rpassword='22321')
+                 │             └ <function UserService.signup at 0x000001A9586F5F80>
+                 └ <app.services.user_service.UserService object at 0x000001A958697E60>
+
+> File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\services\user_service.py", line 25, in signup
+    if user_crud.get_user_by_username(db, username):
+       │         │                    │   └ 'yash@04'
+       │         │                    └ <sqlalchemy.orm.session.Session object at 0x000001A958979F70>
+       │         └ <function UserCrud.get_user_by_username at 0x000001A9586F5D00>
+       └ <app.db.crud.user.UserCrud object at 0x000001A957C320F0>
+
+TypeError: UserCrud.get_user_by_username() takes 2 positional arguments but 3 were given
+2025-03-08 23:39:36 | INFO | d7569752-623a-4595-97a0-00684328b0ba | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 500
+2025-03-08 23:40:56 | INFO | 71fe3bd1-4819-4e53-a760-97f933f4c2b4 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:40:56 | ERROR | 71fe3bd1-4819-4e53-a760-97f933f4c2b4 | 127.0.0.1 | 0.0.0.0 | user_service | signup | UserCrud.get_user_by_username() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 340
+               │     └ 3
+               └ <function _main at 0x000001A9532F96C0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 340
+           │    └ <function BaseProcess._bootstrap at 0x000001A9531025C0>
+           └ <SpawnProcess name='SpawnProcess-1' parent=18756 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x000001A953101B20>
+    └ <SpawnProcess name='SpawnProcess-1' parent=18756 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x000001A9556BBA10>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=18756 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=18756 started>
+    │    └ <function subprocess_started at 0x000001A9556A3D80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=18756 started>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=704, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x000001A9558189B0>>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=704, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+           │       │   │    └ <function Server.serve at 0x000001A9556A31A0>
+           │       │   └ <uvicorn.server.Server object at 0x000001A9558189B0>
+           │       └ <function run at 0x000001A954EA0900>
+           └ <module 'asyncio' from 'C:\\Users\\yash\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x000001A9557ED0E0>
+           │      └ <function Runner.run at 0x000001A954F3D9E0>
+           └ <asyncio.runners.Runner object at 0x000001A9557E7DD0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uv...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x000001A954F37600>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x000001A9557E7DD0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 651, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x000001A954F37560>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 618, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000001A954F3D3A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1951, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000001A954EA16C0>
+    └ <Handle Task.task_wakeup(<Future finis...01A958940A40>>)>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...01A958940A40>>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...01A958940A40>>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...01A958940A40>>)>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\base.py", line 140, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+          │    │   │      │                      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x000001A958B61120>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001A958B61080>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001A95891F890>
+          └ <app.middlewares.logging_middleware.LoggingMiddleware object at 0x000001A95891F8F0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x000001A958B61120>
+          │                            │    │    │     │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001A958B61080>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x000001A9589E4AA0>
+          │                            │    └ <fastapi.routing.APIRouter object at 0x000001A9586D8F50>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001A95891F890>
+          └ <function wrap_app_handling_exceptions at 0x000001A957899300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001A958B613A0>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001A958B61080>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <fastapi.routing.APIRouter object at 0x000001A9586D8F50>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001A958B613A0>
+          │    │                │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001A958B61080>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x000001A9586D8F50>>
+          └ <fastapi.routing.APIRouter object at 0x000001A9586D8F50>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001A958B613A0>
+          │     │      │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001A958B61080>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │     └ <function Route.handle at 0x000001A95789A840>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001A958B613A0>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001A958B61080>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <function request_response.<locals>.app at 0x000001A9589384A0>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001A958B613A0>
+          │                            │    │        │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001A958B61080>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x000001A9589E6240>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x000001A958B61440>
+          └ <function wrap_app_handling_exceptions at 0x000001A957899300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001A958B61580>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001A958B61080>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x000001A958B61440>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+                     │ └ <starlette.requests.Request object at 0x000001A9589E6240>
+                     └ <function get_request_handler.<locals>.app at 0x000001A958938540>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x000001A957898D60>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'db': <sqlalchemy.orm.session.Session object at 0x000001A958940A40>, 'user': UserCreate(name='Yash Goodluck', username='yash...
+                 │         └ <function signup at 0x000001A958675120>
+                 └ Dependant(path_params=[], query_params=[], header_params=[], cookie_params=[], body_params=[ModelField(field_info=Body(Pydant...
+
+  File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\api\routes\user.py", line 12, in signup
+    return await user_services.signup(user, db)
+                 │             │      │     └ <sqlalchemy.orm.session.Session object at 0x000001A958940A40>
+                 │             │      └ UserCreate(name='Yash Goodluck', username='yash@04', email='yash@gmail.com', password='123465', rpassword='22321')
+                 │             └ <function UserService.signup at 0x000001A9586F5F80>
+                 └ <app.services.user_service.UserService object at 0x000001A958697E60>
+
+> File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\services\user_service.py", line 25, in signup
+    if user_crud.get_user_by_username(db, username):
+       │         │                    │   └ 'yash@04'
+       │         │                    └ <sqlalchemy.orm.session.Session object at 0x000001A958940A40>
+       │         └ <function UserCrud.get_user_by_username at 0x000001A9586F5D00>
+       └ <app.db.crud.user.UserCrud object at 0x000001A957C320F0>
+
+TypeError: UserCrud.get_user_by_username() takes 2 positional arguments but 3 were given
+2025-03-08 23:40:56 | INFO | 71fe3bd1-4819-4e53-a760-97f933f4c2b4 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 500
+2025-03-08 23:41:02 | INFO | 8bfdc05c-93f0-4fd9-8011-bea8946fdd20 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:41:02 | ERROR | 8bfdc05c-93f0-4fd9-8011-bea8946fdd20 | 127.0.0.1 | 0.0.0.0 | user_service | signup | (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.name AS users_name, users.username AS users_username, users.email AS users_email, users.password AS users_password, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('yash@04', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Traceback (most recent call last):
+
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    │    │       └ <function DefaultDialect.do_execute at 0x00000277063E76A0>
+    │    └ <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x0000027706776570>
+    └ <sqlalchemy.engine.base.Connection object at 0x0000027705AB5130>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    │      │       │          └ ('yash@04', 1, 0)
+    │      │       └ 'SELECT users.id AS users_id, users.name AS users_name, users.username AS users_username, users.email AS users_email, users.p...
+    │      └ <method 'execute' of 'sqlite3.Cursor' objects>
+    └ <sqlite3.Cursor object at 0x0000027706BC5540>
+
+sqlite3.OperationalError: no such table: users
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 340
+               │     └ 3
+               └ <function _main at 0x00000277013B96C0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 340
+           │    └ <function BaseProcess._bootstrap at 0x00000277011C25C0>
+           └ <SpawnProcess name='SpawnProcess-1' parent=23316 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x00000277011C1B20>
+    └ <SpawnProcess name='SpawnProcess-1' parent=23316 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x000002770376DD30>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=23316 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=23316 started>
+    │    └ <function subprocess_started at 0x00000277037D3D80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=23316 started>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=760, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x00000277039389B0>>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=760, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+           │       │   │    └ <function Server.serve at 0x00000277037D31A0>
+           │       │   └ <uvicorn.server.Server object at 0x00000277039389B0>
+           │       └ <function run at 0x0000027702FC0900>
+           └ <module 'asyncio' from 'C:\\Users\\yash\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x000002770390D0E0>
+           │      └ <function Runner.run at 0x00000277030CD9E0>
+           └ <asyncio.runners.Runner object at 0x0000027701659F70>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uv...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x00000277030C7600>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000027701659F70>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 651, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x00000277030C7560>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 618, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000277030CD3A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1951, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000027702FC16C0>
+    └ <Handle Task.task_wakeup(<Future finis...02770689DBE0>>)>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...02770689DBE0>>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...02770689DBE0>>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...02770689DBE0>>)>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\base.py", line 140, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+          │    │   │      │                      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x0000027706AA3100>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000027706A4FBA0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x0000027706A2F6E0>
+          └ <app.middlewares.logging_middleware.LoggingMiddleware object at 0x0000027706A2F710>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x0000027706AA3100>
+          │                            │    │    │     │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000027706A4FBA0>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x0000027706A2FFB0>
+          │                            │    └ <fastapi.routing.APIRouter object at 0x000002770689C260>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x0000027706A2F6E0>
+          └ <function wrap_app_handling_exceptions at 0x00000277059B9300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x0000027706AA2E80>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000027706A4FBA0>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <fastapi.routing.APIRouter object at 0x000002770689C260>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x0000027706AA2E80>
+          │    │                │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000027706A4FBA0>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x000002770689C260>>
+          └ <fastapi.routing.APIRouter object at 0x000002770689C260>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x0000027706AA2E80>
+          │     │      │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000027706A4FBA0>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │     └ <function Route.handle at 0x00000277059BA840>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x0000027706AA2E80>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000027706A4FBA0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <function request_response.<locals>.app at 0x0000027706A4C4A0>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x0000027706AA2E80>
+          │                            │    │        │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000027706A4FBA0>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x0000027706A895E0>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x0000027706AA2DE0>
+          └ <function wrap_app_handling_exceptions at 0x00000277059B9300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x0000027706AA2CA0>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000027706A4FBA0>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x0000027706AA2DE0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+                     │ └ <starlette.requests.Request object at 0x0000027706A895E0>
+                     └ <function get_request_handler.<locals>.app at 0x0000027706A4C540>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x00000277059B8D60>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'db': <sqlalchemy.orm.session.Session object at 0x000002770689DBE0>, 'user': UserCreate(name='Yash Goodluck', username='yash...
+                 │         └ <function signup at 0x0000027706785120>
+                 └ Dependant(path_params=[], query_params=[], header_params=[], cookie_params=[], body_params=[ModelField(field_info=Body(Pydant...
+
+  File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\api\routes\user.py", line 12, in signup
+    return await user_services.signup(user, db)
+                 │             │      │     └ <sqlalchemy.orm.session.Session object at 0x000002770689DBE0>
+                 │             │      └ UserCreate(name='Yash Goodluck', username='yash@04', email='yash@gmail.com', password='123465', rpassword='22321')
+                 │             └ <function UserService.signup at 0x00000277067DF7E0>
+                 └ <app.services.user_service.UserService object at 0x0000027705A9FF80>
+
+> File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\services\user_service.py", line 25, in signup
+    if user_crud.get_user_by_username(db, username):
+       │         │                    │   └ 'yash@04'
+       │         │                    └ <sqlalchemy.orm.session.Session object at 0x000002770689DBE0>
+       │         └ <function UserCrud.get_user_by_username at 0x000002770680DDA0>
+       └ <app.db.crud.user.UserCrud object at 0x0000027705C08CE0>
+
+  File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\db\crud\user.py", line 31, in get_user_by_username
+    return db.query(User).filter(User.username == username).first()
+           │  │     │            │    │           └ 'yash@04'
+           │  │     │            │    └ <sqlalchemy.orm.attributes.InstrumentedAttribute object at 0x000002770680D6C0>
+           │  │     │            └ <class 'app.db.models.user.User'>
+           │  │     └ <class 'app.db.models.user.User'>
+           │  └ <function Session.query at 0x00000277066A60C0>
+           └ <sqlalchemy.orm.session.Session object at 0x000002770689DBE0>
+
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\sqlalchemy\orm\query.py", line 2754, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           │    └ <function Query.limit at 0x0000027706630360>
+           └ <sqlalchemy.orm.query.Query object at 0x0000027706A8AE70>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\sqlalchemy\orm\query.py", line 2853, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+            │                  │    │      │      │    │       └ <function Session.execute at 0x00000277066A4F40>
+            │                  │    │      │      │    └ <sqlalchemy.orm.session.Session object at 0x000002770689DBE0>
+            │                  │    │      │      └ <sqlalchemy.orm.query.Query object at 0x00000277068C0650>
+            │                  │    │      └ ~_T
+            │                  │    └ <class 'sqlalchemy.engine.result.Result'>
+            │                  └ ~_T
+            └ typing.Union
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           │    └ <function Session._execute_internal at 0x00000277066A4C20>
+           └ <sqlalchemy.orm.session.Session object at 0x000002770689DBE0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                   │      │                 └ <classmethod(<function AbstractORMCompileState.orm_execute_statement at 0x000002770652E0C0>)>
+                   │      └ <class 'sqlalchemy.orm.context.ORMSelectCompileState'>
+                   └ typing.Any
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+             │    └ <function Connection.execute at 0x0000027706357EC0>
+             └ <sqlalchemy.engine.base.Connection object at 0x0000027705AB5130>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           └ <bound method ClauseElement._execute_on_connection of <sqlalchemy.sql.selectable.Select object at 0x0000027706A8AE10>>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\sqlalchemy\sql\elements.py", line 516, in _execute_on_connection
+    return connection._execute_clauseelement(
+           │          └ <function Connection._execute_clauseelement at 0x000002770635C220>
+           └ <sqlalchemy.engine.base.Connection object at 0x0000027705AB5130>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          │    └ <function Connection._execute_context at 0x000002770635C400>
+          └ <sqlalchemy.engine.base.Connection object at 0x0000027705AB5130>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           │    └ <function Connection._exec_single_context at 0x000002770635C4A0>
+           └ <sqlalchemy.engine.base.Connection object at 0x0000027705AB5130>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+    │    └ <function Connection._handle_dbapi_exception at 0x000002770635C720>
+    └ <sqlalchemy.engine.base.Connection object at 0x0000027705AB5130>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+          │                    │              │                 └ OperationalError('no such table: users')
+          │                    │              └ (<class 'sqlite3.OperationalError'>, OperationalError('no such table: users'), <traceback object at 0x0000027706BC1DC0>)
+          │                    └ <method 'with_traceback' of 'BaseException' objects>
+          └ OperationalError('(sqlite3.OperationalError) no such table: users')
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+    │    │       └ <function DefaultDialect.do_execute at 0x00000277063E76A0>
+    │    └ <sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object at 0x0000027706776570>
+    └ <sqlalchemy.engine.base.Connection object at 0x0000027705AB5130>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+    │      │       │          └ ('yash@04', 1, 0)
+    │      │       └ 'SELECT users.id AS users_id, users.name AS users_name, users.username AS users_username, users.email AS users_email, users.p...
+    │      └ <method 'execute' of 'sqlite3.Cursor' objects>
+    └ <sqlite3.Cursor object at 0x0000027706BC5540>
+
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.name AS users_name, users.username AS users_username, users.email AS users_email, users.password AS users_password, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('yash@04', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-08 23:41:02 | INFO | 8bfdc05c-93f0-4fd9-8011-bea8946fdd20 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 500
+2025-03-08 23:42:38 | INFO | 6623f65b-e8b5-4e13-b4b6-1342c439bfd4 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:42:38 | ERROR | 6623f65b-e8b5-4e13-b4b6-1342c439bfd4 | 127.0.0.1 | 0.0.0.0 | user_service | signup | 400: Passwords do not match.
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 348
+               │     └ 3
+               └ <function _main at 0x00000240D10696C0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 348
+           │    └ <function BaseProcess._bootstrap at 0x00000240D0E725C0>
+           └ <SpawnProcess name='SpawnProcess-3' parent=23316 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x00000240D0E71B20>
+    └ <SpawnProcess name='SpawnProcess-3' parent=23316 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x00000240D33DBA10>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-3' parent=23316 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-3' parent=23316 started>
+    │    └ <function subprocess_started at 0x00000240D33C3D80>
+    └ <SpawnProcess name='SpawnProcess-3' parent=23316 started>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=736, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x00000240D35189B0>>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=736, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+           │       │   │    └ <function Server.serve at 0x00000240D33C31A0>
+           │       │   └ <uvicorn.server.Server object at 0x00000240D35189B0>
+           │       └ <function run at 0x00000240D2C10900>
+           └ <module 'asyncio' from 'C:\\Users\\yash\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x00000240D34ED0E0>
+           │      └ <function Runner.run at 0x00000240D2CBD9E0>
+           └ <asyncio.runners.Runner object at 0x00000240D34E7DD0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uv...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x00000240D2CB7600>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000240D34E7DD0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 651, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x00000240D2CB7560>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 618, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000240D2CBD3A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1951, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000240D2C116C0>
+    └ <Handle Task.task_wakeup(<Future finis...0240D6523680>>)>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...0240D6523680>>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...0240D6523680>>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...0240D6523680>>)>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\base.py", line 140, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+          │    │   │      │                      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x00000240D6673B00>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D666C5E0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x00000240D6603890>
+          └ <app.middlewares.logging_middleware.LoggingMiddleware object at 0x00000240D66038C0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x00000240D6673B00>
+          │                            │    │    │     │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D666C5E0>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x00000240D6521A00>
+          │                            │    └ <fastapi.routing.APIRouter object at 0x00000240D63A5EB0>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x00000240D6603890>
+          └ <function wrap_app_handling_exceptions at 0x00000240D5589300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D6673880>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D666C5E0>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <fastapi.routing.APIRouter object at 0x00000240D63A5EB0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D6673880>
+          │    │                │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D666C5E0>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x00000240D63A5EB0>>
+          └ <fastapi.routing.APIRouter object at 0x00000240D63A5EB0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D6673880>
+          │     │      │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D666C5E0>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │     └ <function Route.handle at 0x00000240D558A840>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D6673880>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D666C5E0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <function request_response.<locals>.app at 0x00000240D6618EA0>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D6673880>
+          │                            │    │        │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D666C5E0>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x00000240D66618B0>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x00000240D66737E0>
+          └ <function wrap_app_handling_exceptions at 0x00000240D5589300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D66736A0>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D666C5E0>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x00000240D66737E0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+                     │ └ <starlette.requests.Request object at 0x00000240D66618B0>
+                     └ <function get_request_handler.<locals>.app at 0x00000240D6618F40>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x00000240D5588D60>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'db': <sqlalchemy.orm.session.Session object at 0x00000240D6523680>, 'user': UserCreate(name='Yash Goodluck', username='yash...
+                 │         └ <function signup at 0x00000240D6345120>
+                 └ Dependant(path_params=[], query_params=[], header_params=[], cookie_params=[], body_params=[ModelField(field_info=Body(Pydant...
+
+  File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\api\routes\user.py", line 12, in signup
+    return await user_services.signup(user, db)
+                 │             │      │     └ <sqlalchemy.orm.session.Session object at 0x00000240D6523680>
+                 │             │      └ UserCreate(name='Yash Goodluck', username='yash@04', email='yash@gmail.com', password='123465', rpassword='22321')
+                 │             └ <function UserService.signup at 0x00000240D639FB00>
+                 └ <app.services.user_service.UserService object at 0x00000240D58DBD40>
+
+> File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\services\user_service.py", line 34, in signup
+    raise HTTPException(status_code=400, detail="Passwords do not match.")
+          └ <class 'fastapi.exceptions.HTTPException'>
+
+fastapi.exceptions.HTTPException: 400: Passwords do not match.
+2025-03-08 23:42:38 | INFO | 6623f65b-e8b5-4e13-b4b6-1342c439bfd4 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 500
+2025-03-08 23:42:51 | INFO | 053641d8-0aa6-4a6f-92cf-a8f0ffecde09 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:42:51 | ERROR | 053641d8-0aa6-4a6f-92cf-a8f0ffecde09 | 127.0.0.1 | 0.0.0.0 | user_service | signup | 400: Passwords do not match.
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 348
+               │     └ 3
+               └ <function _main at 0x00000240D10696C0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 348
+           │    └ <function BaseProcess._bootstrap at 0x00000240D0E725C0>
+           └ <SpawnProcess name='SpawnProcess-3' parent=23316 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x00000240D0E71B20>
+    └ <SpawnProcess name='SpawnProcess-3' parent=23316 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x00000240D33DBA10>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-3' parent=23316 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-3' parent=23316 started>
+    │    └ <function subprocess_started at 0x00000240D33C3D80>
+    └ <SpawnProcess name='SpawnProcess-3' parent=23316 started>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=736, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x00000240D35189B0>>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=736, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+           │       │   │    └ <function Server.serve at 0x00000240D33C31A0>
+           │       │   └ <uvicorn.server.Server object at 0x00000240D35189B0>
+           │       └ <function run at 0x00000240D2C10900>
+           └ <module 'asyncio' from 'C:\\Users\\yash\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x00000240D34ED0E0>
+           │      └ <function Runner.run at 0x00000240D2CBD9E0>
+           └ <asyncio.runners.Runner object at 0x00000240D34E7DD0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uv...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x00000240D2CB7600>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000240D34E7DD0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 651, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x00000240D2CB7560>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 618, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000240D2CBD3A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1951, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000240D2C116C0>
+    └ <Handle Task.task_wakeup(<Future finis...0240D6628EF0>>)>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...0240D6628EF0>>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...0240D6628EF0>>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...0240D6628EF0>>)>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\base.py", line 140, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+          │    │   │      │                      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x00000240D678E020>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D678E160>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x00000240D6603890>
+          └ <app.middlewares.logging_middleware.LoggingMiddleware object at 0x00000240D66038C0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x00000240D678E020>
+          │                            │    │    │     │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D678E160>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x00000240D66C7E90>
+          │                            │    └ <fastapi.routing.APIRouter object at 0x00000240D63A5EB0>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x00000240D6603890>
+          └ <function wrap_app_handling_exceptions at 0x00000240D5589300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D67C5A80>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D678E160>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <fastapi.routing.APIRouter object at 0x00000240D63A5EB0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D67C5A80>
+          │    │                │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D678E160>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x00000240D63A5EB0>>
+          └ <fastapi.routing.APIRouter object at 0x00000240D63A5EB0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D67C5A80>
+          │     │      │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D678E160>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │     └ <function Route.handle at 0x00000240D558A840>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D67C5A80>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D678E160>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <function request_response.<locals>.app at 0x00000240D6618EA0>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D67C5A80>
+          │                            │    │        │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D678E160>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x00000240D6864500>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x00000240D67C59E0>
+          └ <function wrap_app_handling_exceptions at 0x00000240D5589300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D67C5B20>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D678E160>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x00000240D67C59E0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+                     │ └ <starlette.requests.Request object at 0x00000240D6864500>
+                     └ <function get_request_handler.<locals>.app at 0x00000240D6618F40>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x00000240D5588D60>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'db': <sqlalchemy.orm.session.Session object at 0x00000240D6628EF0>, 'user': UserCreate(name='Yash Goodluck', username='yash...
+                 │         └ <function signup at 0x00000240D6345120>
+                 └ Dependant(path_params=[], query_params=[], header_params=[], cookie_params=[], body_params=[ModelField(field_info=Body(Pydant...
+
+  File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\api\routes\user.py", line 12, in signup
+    return await user_services.signup(user, db)
+                 │             │      │     └ <sqlalchemy.orm.session.Session object at 0x00000240D6628EF0>
+                 │             │      └ UserCreate(name='Yash Goodluck', username='yash@04', email='yash@gmail.com', password='123465', rpassword='123456')
+                 │             └ <function UserService.signup at 0x00000240D639FB00>
+                 └ <app.services.user_service.UserService object at 0x00000240D58DBD40>
+
+> File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\services\user_service.py", line 34, in signup
+    raise HTTPException(status_code=400, detail="Passwords do not match.")
+          └ <class 'fastapi.exceptions.HTTPException'>
+
+fastapi.exceptions.HTTPException: 400: Passwords do not match.
+2025-03-08 23:42:51 | INFO | 053641d8-0aa6-4a6f-92cf-a8f0ffecde09 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 500
+2025-03-08 23:43:03 | INFO | be2bf089-7283-4d58-bc22-7ee01e204fd6 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:43:03 | ERROR | be2bf089-7283-4d58-bc22-7ee01e204fd6 | 127.0.0.1 | 0.0.0.0 | user_service | signup | bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 348
+               │     └ 3
+               └ <function _main at 0x00000240D10696C0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 348
+           │    └ <function BaseProcess._bootstrap at 0x00000240D0E725C0>
+           └ <SpawnProcess name='SpawnProcess-3' parent=23316 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x00000240D0E71B20>
+    └ <SpawnProcess name='SpawnProcess-3' parent=23316 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x00000240D33DBA10>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-3' parent=23316 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-3' parent=23316 started>
+    │    └ <function subprocess_started at 0x00000240D33C3D80>
+    └ <SpawnProcess name='SpawnProcess-3' parent=23316 started>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=736, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x00000240D35189B0>>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=736, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+           │       │   │    └ <function Server.serve at 0x00000240D33C31A0>
+           │       │   └ <uvicorn.server.Server object at 0x00000240D35189B0>
+           │       └ <function run at 0x00000240D2C10900>
+           └ <module 'asyncio' from 'C:\\Users\\yash\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x00000240D34ED0E0>
+           │      └ <function Runner.run at 0x00000240D2CBD9E0>
+           └ <asyncio.runners.Runner object at 0x00000240D34E7DD0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uv...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x00000240D2CB7600>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000240D34E7DD0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 651, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x00000240D2CB7560>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 618, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000240D2CBD3A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1951, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000240D2C116C0>
+    └ <Handle Task.task_wakeup(<Future finis...0240D64F0FE0>>)>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...0240D64F0FE0>>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...0240D64F0FE0>>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...0240D64F0FE0>>)>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\base.py", line 140, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+          │    │   │      │                      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x00000240D67C5EE0>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D67C6020>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x00000240D6603890>
+          └ <app.middlewares.logging_middleware.LoggingMiddleware object at 0x00000240D66038C0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x00000240D67C5EE0>
+          │                            │    │    │     │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D67C6020>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x00000240D6865130>
+          │                            │    └ <fastapi.routing.APIRouter object at 0x00000240D63A5EB0>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x00000240D6603890>
+          └ <function wrap_app_handling_exceptions at 0x00000240D5589300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D67C6340>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D67C6020>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <fastapi.routing.APIRouter object at 0x00000240D63A5EB0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D67C6340>
+          │    │                │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D67C6020>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x00000240D63A5EB0>>
+          └ <fastapi.routing.APIRouter object at 0x00000240D63A5EB0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D67C6340>
+          │     │      │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D67C6020>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │     └ <function Route.handle at 0x00000240D558A840>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D67C6340>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D67C6020>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <function request_response.<locals>.app at 0x00000240D6618EA0>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D67C6340>
+          │                            │    │        │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D67C6020>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x00000240D6865790>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x00000240D67C63E0>
+          └ <function wrap_app_handling_exceptions at 0x00000240D5589300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x00000240D67C6520>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x00000240D67C6020>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x00000240D67C63E0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+                     │ └ <starlette.requests.Request object at 0x00000240D6865790>
+                     └ <function get_request_handler.<locals>.app at 0x00000240D6618F40>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x00000240D5588D60>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'db': <sqlalchemy.orm.session.Session object at 0x00000240D64F0FE0>, 'user': UserCreate(name='Yash Goodluck', username='yash...
+                 │         └ <function signup at 0x00000240D6345120>
+                 └ Dependant(path_params=[], query_params=[], header_params=[], cookie_params=[], body_params=[ModelField(field_info=Body(Pydant...
+
+  File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\api\routes\user.py", line 12, in signup
+    return await user_services.signup(user, db)
+                 │             │      │     └ <sqlalchemy.orm.session.Session object at 0x00000240D64F0FE0>
+                 │             │      └ UserCreate(name='Yash Goodluck', username='yash@04', email='yash@gmail.com', password='123465', rpassword='123465')
+                 │             └ <function UserService.signup at 0x00000240D639FB00>
+                 └ <app.services.user_service.UserService object at 0x00000240D58DBD40>
+
+> File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\services\user_service.py", line 37, in signup
+    hashed_password = auth.get_password_hash(password)
+                      │    │                 └ '123465'
+                      │    └ <function AuthenticationMiddleware.get_password_hash at 0x00000240D6618180>
+                      └ <app.middlewares.authentication_middleware.AuthenticationMiddleware object at 0x00000240D58D9B50>
+
+  File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\middlewares\authentication_middleware.py", line 62, in get_password_hash
+    return self.__pwd_context.hash(password)
+           │                       └ '123465'
+           └ <app.middlewares.authentication_middleware.AuthenticationMiddleware object at 0x00000240D58D9B50>
+
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\passlib\context.py", line 2258, in hash
+    return record.hash(secret, **kwds)
+           │      │    │         └ {}
+           │      │    └ '123465'
+           │      └ <classmethod(<function GenericHandler.hash at 0x00000240D6439D00>)>
+           └ <class 'passlib.handlers.bcrypt.<customized bcrypt hasher>'>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\passlib\utils\handlers.py", line 779, in hash
+    self.checksum = self._calc_checksum(secret)
+    │    │          │    │              └ '123465'
+    │    │          │    └ <function _NoBackend._calc_checksum at 0x00000240D660B060>
+    │    │          └ <passlib.handlers.bcrypt.<customized bcrypt hasher> object at 0x00000240D6865E20>
+    │    └ None
+    └ <passlib.handlers.bcrypt.<customized bcrypt hasher> object at 0x00000240D6865E20>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\passlib\handlers\bcrypt.py", line 591, in _calc_checksum
+    self._stub_requires_backend()
+    │    └ <classmethod(<function BackendMixin._stub_requires_backend at 0x00000240D64500E0>)>
+    └ <passlib.handlers.bcrypt.<customized bcrypt hasher> object at 0x00000240D6865E20>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\passlib\utils\handlers.py", line 2254, in _stub_requires_backend
+    cls.set_backend()
+    │   └ <classmethod(<function BackendMixin.set_backend at 0x00000240D643BE20>)>
+    └ <class 'passlib.handlers.bcrypt.<customized bcrypt hasher>'>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\passlib\utils\handlers.py", line 2156, in set_backend
+    return owner.set_backend(name, dryrun=dryrun)
+           │     │           │            └ False
+           │     │           └ 'any'
+           │     └ <classmethod(<function BackendMixin.set_backend at 0x00000240D643BE20>)>
+           └ <class 'passlib.handlers.bcrypt.bcrypt'>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\passlib\utils\handlers.py", line 2176, in set_backend
+    raise default_error
+          └ MissingBackendError("bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')")
+
+passlib.exc.MissingBackendError: bcrypt: no backends available -- recommend you install one (e.g. 'pip install bcrypt')
+2025-03-08 23:43:03 | INFO | be2bf089-7283-4d58-bc22-7ee01e204fd6 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 500
+2025-03-08 23:43:17 | INFO | 70b84d6d-6b7e-44ee-85fc-9e254a581b72 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:43:17 | INFO | 70b84d6d-6b7e-44ee-85fc-9e254a581b72 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 201
+2025-03-08 23:47:03 | INFO | 30abb3bd-e385-45ba-a7a1-9d9691e4ceea | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:47:03 | ERROR | 30abb3bd-e385-45ba-a7a1-9d9691e4ceea | 127.0.0.1 | 0.0.0.0 | user_service | signup | 400: Username already exists.
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 356
+               │     └ 3
+               └ <function _main at 0x00000266561896C0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 356
+           │    └ <function BaseProcess._bootstrap at 0x0000026655F925C0>
+           └ <SpawnProcess name='SpawnProcess-1' parent=6504 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000026655F91B20>
+    └ <SpawnProcess name='SpawnProcess-1' parent=6504 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x000002665858B890>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=6504 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=6504 started>
+    │    └ <function subprocess_started at 0x0000026658573D80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=6504 started>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=744, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x00000266586E8980>>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=744, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+           │       │   │    └ <function Server.serve at 0x00000266585731A0>
+           │       │   └ <uvicorn.server.Server object at 0x00000266586E8980>
+           │       └ <function run at 0x0000026657D70900>
+           └ <module 'asyncio' from 'C:\\Users\\yash\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x00000266586BD0E0>
+           │      └ <function Runner.run at 0x0000026657E5D9E0>
+           └ <asyncio.runners.Runner object at 0x00000266586B77D0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uv...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000026657E57600>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000266586B77D0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 651, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x0000026657E57560>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 618, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000026657E5D3A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1951, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000026657D716C0>
+    └ <Handle Task.task_wakeup(<Future finis...02665B881F70>>)>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...02665B881F70>>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...02665B881F70>>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...02665B881F70>>)>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\base.py", line 140, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+          │    │   │      │                      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x000002665B893B00>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B88C5E0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000002665B6417C0>
+          └ <app.middlewares.logging_middleware.LoggingMiddleware object at 0x000002665B823980>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x000002665B893B00>
+          │                            │    │    │     │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B88C5E0>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x000002665B741A00>
+          │                            │    └ <fastapi.routing.APIRouter object at 0x000002665B765FD0>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000002665B6417C0>
+          └ <function wrap_app_handling_exceptions at 0x000002665A769300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B893880>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B88C5E0>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <fastapi.routing.APIRouter object at 0x000002665B765FD0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B893880>
+          │    │                │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B88C5E0>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x000002665B765FD0>>
+          └ <fastapi.routing.APIRouter object at 0x000002665B765FD0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B893880>
+          │     │      │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B88C5E0>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │     └ <function Route.handle at 0x000002665A76A840>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B893880>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B88C5E0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <function request_response.<locals>.app at 0x000002665B838EA0>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B893880>
+          │                            │    │        │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B88C5E0>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x000002665B881820>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x000002665B8937E0>
+          └ <function wrap_app_handling_exceptions at 0x000002665A769300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B8936A0>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B88C5E0>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x000002665B8937E0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+                     │ └ <starlette.requests.Request object at 0x000002665B881820>
+                     └ <function get_request_handler.<locals>.app at 0x000002665B838F40>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x000002665A768D60>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'db': <sqlalchemy.orm.session.Session object at 0x000002665B881F70>, 'user': UserCreate(name='Yash Goodluck', username='yash...
+                 │         └ <function signup at 0x000002665B575120>
+                 └ Dependant(path_params=[], query_params=[], header_params=[], cookie_params=[], body_params=[ModelField(field_info=Body(Pydant...
+
+  File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\api\routes\user.py", line 12, in signup
+    return await user_services.signup(user, db)
+                 │             │      │     └ <sqlalchemy.orm.session.Session object at 0x000002665B881F70>
+                 │             │      └ UserCreate(name='Yash Goodluck', username='yash@04', email='yash@gmail.com', password='123465', rpassword='123465')
+                 │             └ <function UserService.signup at 0x000002665B5CFB00>
+                 └ <app.services.user_service.UserService object at 0x000002665B30D9A0>
+
+> File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\services\user_service.py", line 26, in signup
+    raise HTTPException(status_code=400, detail="Username already exists.")
+          └ <class 'fastapi.exceptions.HTTPException'>
+
+fastapi.exceptions.HTTPException: 400: Username already exists.
+2025-03-08 23:47:03 | INFO | 30abb3bd-e385-45ba-a7a1-9d9691e4ceea | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 500
+2025-03-08 23:48:54 | INFO | 4b1457d4-f054-42e2-a442-089f2e63f41b | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:48:54 | ERROR | 4b1457d4-f054-42e2-a442-089f2e63f41b | 127.0.0.1 | 0.0.0.0 | user_service | signup | 400: Email already exists.
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 356
+               │     └ 3
+               └ <function _main at 0x00000266561896C0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 356
+           │    └ <function BaseProcess._bootstrap at 0x0000026655F925C0>
+           └ <SpawnProcess name='SpawnProcess-1' parent=6504 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000026655F91B20>
+    └ <SpawnProcess name='SpawnProcess-1' parent=6504 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x000002665858B890>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=6504 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=6504 started>
+    │    └ <function subprocess_started at 0x0000026658573D80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=6504 started>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=744, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x00000266586E8980>>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=744, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+           │       │   │    └ <function Server.serve at 0x00000266585731A0>
+           │       │   └ <uvicorn.server.Server object at 0x00000266586E8980>
+           │       └ <function run at 0x0000026657D70900>
+           └ <module 'asyncio' from 'C:\\Users\\yash\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x00000266586BD0E0>
+           │      └ <function Runner.run at 0x0000026657E5D9E0>
+           └ <asyncio.runners.Runner object at 0x00000266586B77D0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uv...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000026657E57600>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000266586B77D0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 651, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x0000026657E57560>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 618, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000026657E5D3A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1951, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000026657D716C0>
+    └ <Handle Task.task_wakeup(<Future finis...02665B848620>>)>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...02665B848620>>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...02665B848620>>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...02665B848620>>)>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\base.py", line 140, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+          │    │   │      │                      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x000002665B9AE020>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B9AE160>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000002665B6417C0>
+          └ <app.middlewares.logging_middleware.LoggingMiddleware object at 0x000002665B823980>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x000002665B9AE020>
+          │                            │    │    │     │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B9AE160>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x000002665B8E7D10>
+          │                            │    └ <fastapi.routing.APIRouter object at 0x000002665B765FD0>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000002665B6417C0>
+          └ <function wrap_app_handling_exceptions at 0x000002665A769300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B9F56C0>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B9AE160>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <fastapi.routing.APIRouter object at 0x000002665B765FD0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B9F56C0>
+          │    │                │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B9AE160>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x000002665B765FD0>>
+          └ <fastapi.routing.APIRouter object at 0x000002665B765FD0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B9F56C0>
+          │     │      │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B9AE160>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │     └ <function Route.handle at 0x000002665A76A840>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B9F56C0>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B9AE160>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <function request_response.<locals>.app at 0x000002665B838EA0>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B9F56C0>
+          │                            │    │        │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B9AE160>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x000002665BA843B0>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x000002665B9F5620>
+          └ <function wrap_app_handling_exceptions at 0x000002665A769300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B9F5760>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B9AE160>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x000002665B9F5620>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+                     │ └ <starlette.requests.Request object at 0x000002665BA843B0>
+                     └ <function get_request_handler.<locals>.app at 0x000002665B838F40>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x000002665A768D60>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'db': <sqlalchemy.orm.session.Session object at 0x000002665B848620>, 'user': UserCreate(name='Yash Goodluck', username='yash...
+                 │         └ <function signup at 0x000002665B575120>
+                 └ Dependant(path_params=[], query_params=[], header_params=[], cookie_params=[], body_params=[ModelField(field_info=Body(Pydant...
+
+  File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\api\routes\user.py", line 12, in signup
+    return await user_services.signup(user, db)
+                 │             │      │     └ <sqlalchemy.orm.session.Session object at 0x000002665B848620>
+                 │             │      └ UserCreate(name='Yash Goodluck', username='yashe@04', email='yash@gmail.com', password='123465', rpassword='12e3465')
+                 │             └ <function UserService.signup at 0x000002665B5CFB00>
+                 └ <app.services.user_service.UserService object at 0x000002665B30D9A0>
+
+> File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\services\user_service.py", line 30, in signup
+    raise HTTPException(status_code=400, detail="Email already exists.")
+          └ <class 'fastapi.exceptions.HTTPException'>
+
+fastapi.exceptions.HTTPException: 400: Email already exists.
+2025-03-08 23:48:54 | INFO | 4b1457d4-f054-42e2-a442-089f2e63f41b | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 500
+2025-03-08 23:48:59 | INFO | 6fac838e-7441-4711-8c9f-4a1409f6c82f | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:48:59 | ERROR | 6fac838e-7441-4711-8c9f-4a1409f6c82f | 127.0.0.1 | 0.0.0.0 | user_service | signup | 400: Passwords do not match.
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 356
+               │     └ 3
+               └ <function _main at 0x00000266561896C0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 356
+           │    └ <function BaseProcess._bootstrap at 0x0000026655F925C0>
+           └ <SpawnProcess name='SpawnProcess-1' parent=6504 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000026655F91B20>
+    └ <SpawnProcess name='SpawnProcess-1' parent=6504 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x000002665858B890>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=6504 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=6504 started>
+    │    └ <function subprocess_started at 0x0000026658573D80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=6504 started>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=744, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x00000266586E8980>>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=744, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+           │       │   │    └ <function Server.serve at 0x00000266585731A0>
+           │       │   └ <uvicorn.server.Server object at 0x00000266586E8980>
+           │       └ <function run at 0x0000026657D70900>
+           └ <module 'asyncio' from 'C:\\Users\\yash\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x00000266586BD0E0>
+           │      └ <function Runner.run at 0x0000026657E5D9E0>
+           └ <asyncio.runners.Runner object at 0x00000266586B77D0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uv...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000026657E57600>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000266586B77D0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 651, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x0000026657E57560>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 618, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000026657E5D3A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1951, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000026657D716C0>
+    └ <Handle Task.task_wakeup(<Future finis...02665B8E7FE0>>)>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...02665B8E7FE0>>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...02665B8E7FE0>>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...02665B8E7FE0>>)>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\base.py", line 140, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+          │    │   │      │                      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x000002665B893240>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B893920>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000002665B6417C0>
+          └ <app.middlewares.logging_middleware.LoggingMiddleware object at 0x000002665B823980>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x000002665B893240>
+          │                            │    │    │     │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B893920>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x000002665B8486B0>
+          │                            │    └ <fastapi.routing.APIRouter object at 0x000002665B765FD0>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000002665B6417C0>
+          └ <function wrap_app_handling_exceptions at 0x000002665A769300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B893880>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B893920>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <fastapi.routing.APIRouter object at 0x000002665B765FD0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B893880>
+          │    │                │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B893920>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x000002665B765FD0>>
+          └ <fastapi.routing.APIRouter object at 0x000002665B765FD0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B893880>
+          │     │      │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B893920>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │     └ <function Route.handle at 0x000002665A76A840>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B893880>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B893920>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <function request_response.<locals>.app at 0x000002665B838EA0>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B893880>
+          │                            │    │        │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B893920>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x000002665BA85340>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x000002665B8936A0>
+          └ <function wrap_app_handling_exceptions at 0x000002665A769300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000002665B9F5C60>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002665B893920>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x000002665B8936A0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+                     │ └ <starlette.requests.Request object at 0x000002665BA85340>
+                     └ <function get_request_handler.<locals>.app at 0x000002665B838F40>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x000002665A768D60>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'db': <sqlalchemy.orm.session.Session object at 0x000002665B8E7FE0>, 'user': UserCreate(name='Yash Goodluck', username='yash...
+                 │         └ <function signup at 0x000002665B575120>
+                 └ Dependant(path_params=[], query_params=[], header_params=[], cookie_params=[], body_params=[ModelField(field_info=Body(Pydant...
+
+  File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\api\routes\user.py", line 12, in signup
+    return await user_services.signup(user, db)
+                 │             │      │     └ <sqlalchemy.orm.session.Session object at 0x000002665B8E7FE0>
+                 │             │      └ UserCreate(name='Yash Goodluck', username='yashe@04', email='yashe@gmail.com', password='123465', rpassword='12e3465')
+                 │             └ <function UserService.signup at 0x000002665B5CFB00>
+                 └ <app.services.user_service.UserService object at 0x000002665B30D9A0>
+
+> File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\services\user_service.py", line 34, in signup
+    raise HTTPException(status_code=400, detail="Passwords do not match.")
+          └ <class 'fastapi.exceptions.HTTPException'>
+
+fastapi.exceptions.HTTPException: 400: Passwords do not match.
+2025-03-08 23:48:59 | INFO | 6fac838e-7441-4711-8c9f-4a1409f6c82f | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 500
+2025-03-08 23:51:28 | INFO | 437441b0-0927-4fbe-825e-210a99c055a4 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:51:28 | INFO | 437441b0-0927-4fbe-825e-210a99c055a4 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 400
+2025-03-08 23:52:22 | INFO | 39e9d266-d95b-4a1e-9f9d-de411d162e9d | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:52:22 | INFO | 39e9d266-d95b-4a1e-9f9d-de411d162e9d | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 400
+2025-03-08 23:52:38 | INFO | b5933c3e-fc56-47d7-97de-1dcaee27f1e1 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Incoming Request
+2025-03-08 23:52:38 | ERROR | b5933c3e-fc56-47d7-97de-1dcaee27f1e1 | 127.0.0.1 | 0.0.0.0 | user_service | signup | HTTPException.__init__() missing 1 required positional argument: 'status_code'
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 104
+               │     └ 3
+               └ <function _main at 0x0000021B092C96C0>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 104
+           │    └ <function BaseProcess._bootstrap at 0x0000021B090D25C0>
+           └ <SpawnProcess name='SpawnProcess-1' parent=16000 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000021B090D1B20>
+    └ <SpawnProcess name='SpawnProcess-1' parent=16000 started>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x0000021B0B6AB890>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=16000 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=16000 started>
+    │    └ <function subprocess_started at 0x0000021B0B693D80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=16000 started>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=364, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x0000021B0B7E8AD0>>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uvicorn\server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=364, family=2, type=1, proto=6, laddr=('127.0.0.1', 2500)>]
+           │       │   │    └ <function Server.serve at 0x0000021B0B6931A0>
+           │       │   └ <uvicorn.server.Server object at 0x0000021B0B7E8AD0>
+           │       └ <function run at 0x0000021B0AE70900>
+           └ <module 'asyncio' from 'C:\\Users\\yash\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000021B0B7BD0E0>
+           │      └ <function Runner.run at 0x0000021B0AF8D9E0>
+           └ <asyncio.runners.Runner object at 0x0000021B0AE6D700>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\uv...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000021B0AF87600>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000021B0AE6D700>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 651, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x0000021B0AF87560>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 618, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000021B0AF8D3A0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1951, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000021B0AE716C0>
+    └ <Handle Task.task_wakeup(<Future finis...021B0E9820F0>>)>
+  File "C:\Users\yash\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...021B0E9820F0>>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...021B0E9820F0>>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...021B0E9820F0>>)>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\base.py", line 140, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+          │    │   │      │                      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x0000021B0E993BA0>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000021B0E98C680>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x0000021B0E922AE0>
+          └ <app.middlewares.logging_middleware.LoggingMiddleware object at 0x0000021B0E923B90>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x0000021B0E993BA0>
+          │                            │    │    │     │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000021B0E98C680>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x0000021B0E9484A0>
+          │                            │    └ <fastapi.routing.APIRouter object at 0x0000021B0E8650D0>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x0000021B0E922AE0>
+          └ <function wrap_app_handling_exceptions at 0x0000021B0D869300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x0000021B0E993920>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000021B0E98C680>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <fastapi.routing.APIRouter object at 0x0000021B0E8650D0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x0000021B0E993920>
+          │    │                │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000021B0E98C680>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x0000021B0E8650D0>>
+          └ <fastapi.routing.APIRouter object at 0x0000021B0E8650D0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x0000021B0E993920>
+          │     │      │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000021B0E98C680>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │     └ <function Route.handle at 0x0000021B0D86A840>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x0000021B0E993920>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000021B0E98C680>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │    └ <function request_response.<locals>.app at 0x0000021B0E938F40>
+          └ APIRoute(path='/signup/', name='signup', methods=['POST'])
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x0000021B0E993920>
+          │                            │    │        │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000021B0E98C680>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x0000021B0E981A30>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x0000021B0E993880>
+          └ <function wrap_app_handling_exceptions at 0x0000021B0D869300>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x0000021B0E993740>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000021B0E98C680>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 2500), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x0000021B0E993880>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+                     │ └ <starlette.requests.Request object at 0x0000021B0E981A30>
+                     └ <function get_request_handler.<locals>.app at 0x0000021B0E938FE0>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x0000021B0D868D60>
+  File "D:\Software\PROJECTS\venv\venv_myhelperbuddy\Lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'db': <sqlalchemy.orm.session.Session object at 0x0000021B0E9820F0>, 'user': UserCreate(name='Yash Goodluck', username='yash...
+                 │         └ <function signup at 0x0000021B0E675120>
+                 └ Dependant(path_params=[], query_params=[], header_params=[], cookie_params=[], body_params=[ModelField(field_info=Body(Pydant...
+
+  File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\api\routes\user.py", line 12, in signup
+    return await user_services.signup(user, db)
+                 │             │      │     └ <sqlalchemy.orm.session.Session object at 0x0000021B0E9820F0>
+                 │             │      └ UserCreate(name='Yash Goodluck', username='yashe@04', email='yashe@gmail.com', password='123465', rpassword='12e3465')
+                 │             └ <function UserService.signup at 0x0000021B0E6CFC40>
+                 └ <app.services.user_service.UserService object at 0x0000021B0DBBFAD0>
+
+> File "D:\Software\PROJECTS\myHelperBuddy\myhelperbuddy_server\app\services\user_service.py", line 34, in signup
+    raise HTTPException( detail="Passwords do not match.")
+          └ <class 'fastapi.exceptions.HTTPException'>
+
+TypeError: HTTPException.__init__() missing 1 required positional argument: 'status_code'
+2025-03-08 23:52:38 | INFO | b5933c3e-fc56-47d7-97de-1dcaee27f1e1 | 127.0.0.1 | 0.0.0.0 | logging_middleware | dispatch | Response status : 500
