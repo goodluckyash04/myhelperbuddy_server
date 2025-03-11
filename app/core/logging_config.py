@@ -31,8 +31,8 @@ logger.add(sys.stderr, format="<green>{time:YYYY-MM-DD HH:mm:ss.SSS}</green> | "
            level="INFO")
 
 # Send logs to Logtail
-# logtail_handler = LogtailHandler(source_token=settings.LOGTAIL_SOURCE_TOKEN, host=settings.LOGTAIL_HOST)
-# logger.add(logtail_handler, serialize=True, format=LOGTAIL_FORMAT, level=LOGTAIL_LOG_LEVEL)
+logtail_handler = LogtailHandler(source_token=settings.LOGTAIL_SOURCE_TOKEN, host=settings.LOGTAIL_HOST)
+logger.add(logtail_handler, serialize=True, format=LOGTAIL_FORMAT, level=LOGTAIL_LOG_LEVEL)
 
 # Save logs locally
-logger.add(LOG_FILE_PATH, format=LOG_FORMAT, rotation=LOG_FILE_SIZE, retention=LOG_FILE_RETENTION, level=LOG_FILE_LEVEL)
+# logger.add(LOG_FILE_PATH, format=LOG_FORMAT, rotation=LOG_FILE_SIZE, retention=LOG_FILE_RETENTION, level=LOG_FILE_LEVEL)
