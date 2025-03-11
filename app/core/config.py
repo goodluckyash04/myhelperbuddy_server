@@ -17,7 +17,7 @@ class Settings(BaseSettings):
 
     class Config:
         print("\tApplication running in",os.getenv('ENVIRONMENT', ''))
-        env_file = f".env.{os.getenv('ENVIRONMENT', '')}"
+        env_file = f".env.{os.getenv('ENVIRONMENT', '')}" if os.getenv('ENVIRONMENT') else ".env"
 
 
 settings = Settings()

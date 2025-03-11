@@ -21,6 +21,9 @@ app.add_middleware(
 
 app.include_router(user.router)
 
-# Vercel needs a handler for ASGI
-from mangum import Mangum
-handler = Mangum(app)
+@app.get("/")
+async def read_root():
+    return {"message": "Hello Welcome to myHelperBuddy!"}
+
+def handler(req, context):
+    return app(req, context)
