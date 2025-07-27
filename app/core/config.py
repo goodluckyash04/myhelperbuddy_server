@@ -1,23 +1,26 @@
-from pydantic_settings import BaseSettings
-from dotenv import load_dotenv
 import os
 
-load_dotenv()
+from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    ENVIRONMENT: str = os.getenv("ENVIRONMENT", "local")
-    DEBUG: bool = os.getenv("DEBUG", "False") == "True"
-    DATABASE_URL: str = os.getenv("DATABASE_URL", "sqlite:///./database.db")
-    SECRET_KEY: str = os.getenv("SECRET_KEY", "default_secret_key")
-    ACCESS_TOKEN_EXPIRE_MINUTES: int = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", 60))
+    ENVIRONMENT: str = "local"
+    DEBUG: bool = False
+    DATABASE_URL: str = "sqlite:///./database.db"
+    SECRET_KEY: str = ""
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
 
-    LOGTAIL_SOURCE_TOKEN: str = os.getenv("LOGTAIL_SOURCE_TOKEN", "")
-    LOGTAIL_HOST: str = os.getenv("LOGTAIL_HOST", "")
+    LOGTAIL_SOURCE_TOKEN: str = ""
+    LOGTAIL_HOST: str = ""
 
     class Config:
-        print("\tApplication running in",os.getenv('ENVIRONMENT', ''))
-        env_file = f".env.{os.getenv('ENVIRONMENT', '')}" if os.getenv('ENVIRONMENT') else ".env"
+        # Automatically loads env file only when not on Render
+        env_file = (
+            f".env.{os.getenv('ENVIRONMENT', 'local')}"
+            if not os.getenv("RENDER")
+            else None
+        )
+        env_file_encoding = "utf-8"
 
 
 settings = Settings()

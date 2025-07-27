@@ -36,3 +36,5 @@ storage/
 server.py
 
 *.db
+
+*.bat
