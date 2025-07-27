@@ -4,11 +4,18 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
+
+    # jwt
+    ALGORITHM: str = "HS256"
+    SECRET_KEY: str = (
+        ""  # node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"  or openssl rand -hex 32
+    )
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
+
     ENVIRONMENT: str = "local"
     DEBUG: bool = False
+    PRODUCTION_MODE: bool = False
     DATABASE_URL: str = "sqlite:///./database.db"
-    SECRET_KEY: str = ""
-    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
 
     LOGTAIL_SOURCE_TOKEN: str = ""
     LOGTAIL_HOST: str = ""
