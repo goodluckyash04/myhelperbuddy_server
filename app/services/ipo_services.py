@@ -1,8 +1,9 @@
-from datetime import datetime
+from datetime import datetime, time
 
 from bs4 import BeautifulSoup
 from fastapi import HTTPException
 from fastapi.encoders import jsonable_encoder
+from sqlalchemy import and_, func, or_
 from sqlalchemy.orm import Session
 
 from app.api.error_handlers import response
@@ -25,11 +26,23 @@ class IPOService:
         )
 
     async def fetch_ipos(self, status: str, db: Session):
+        now = datetime.now()
+        today_date = now.date()
+        today_430pm = datetime.combine(today_date, time(16, 30))
         if status.lower() == "active":
-            today = datetime.today()
             active_ipos = (
                 db.query(IPO)
-                .filter(IPO.opening_date <= today, IPO.closing_date >= today)
+                .filter(
+                    func.date(IPO.opening_date) <= today_date,
+                    or_(
+                        func.date(IPO.closing_date)
+                        > today_date,  # still open in future
+                        and_(
+                            func.date(IPO.closing_date) == today_date,
+                            now < today_430pm,  # only show before 4:30 PM
+                        ),
+                    ),
+                )
                 .all()
             )
 
