@@ -21,7 +21,7 @@ def refresh(
 @router.get("/fetch-ipo-details/")
 @handle_exceptions
 async def fetch_ipos(
-    status: str = Query(default="active"),
+    status: str = Query(default="open"),
     db: Session = Depends(get_db),
     user: User = Depends(auth.decode_access_token),
 ):

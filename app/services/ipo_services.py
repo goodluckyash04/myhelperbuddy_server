@@ -3,7 +3,7 @@ from datetime import datetime, time
 from bs4 import BeautifulSoup
 from fastapi import HTTPException
 from fastapi.encoders import jsonable_encoder
-from sqlalchemy import and_, func, or_
+from sqlalchemy import and_, asc, desc, func, or_
 from sqlalchemy.orm import Session
 
 from app.api.error_handlers import response
@@ -29,7 +29,14 @@ class IPOService:
         now = datetime.now()
         today_date = now.date()
         today_430pm = datetime.combine(today_date, time(16, 30))
-        if status.lower() == "active":
+        if status.lower() == "closed":
+            active_ipos = (
+                db.query(IPO)
+                .filter(IPO.closing_date < today_date)
+                .order_by(desc(IPO.closing_date))
+                .all()
+            )
+        if status.lower() == "open":
             active_ipos = (
                 db.query(IPO)
                 .filter(
@@ -43,9 +50,12 @@ class IPOService:
                         ),
                     ),
                 )
+                .order_by(IPO.closing_date)
                 .all()
             )
-
+        elif status.lower() == "upcoming":
+            active_ipos = db.query(IPO).filter(IPO.opening_date > today_date).all()
+        if status.lower() in ["upcoming", "open"]:
             for ipo in active_ipos:
                 gmp_data = fetch_ipo_gmp_detail(ipo.gmp_id)
                 if gmp_data:
@@ -71,9 +81,9 @@ class IPOService:
                 else:
                     ipo.ipoGmpData = {}
 
-            return response.success_response(
-                status_code=200, data=jsonable_encoder(active_ipos)
-            )
+        return response.success_response(
+            status_code=200, data=jsonable_encoder(active_ipos)
+        )
 
 
 ipo_services = IPOService()
